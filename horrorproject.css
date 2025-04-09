@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barriecito', cursive;
+
+}
+
+
+
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+       background-image: url(https://wallpaperset.com/w/full/b/b/a/461648.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        animation-name: banner;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+    }
+
+  
+    
+    @keyframes banner {
+        0%{background-image: url("https://wallpaperset.com/w/full/b/b/a/461648.jpg");}
+        20%{background-image: url("https://wallpapercave.com/wp/wp3481023.jpg");}
+        50%{background-image: url("http://s1.picswalls.com/wallpapers/2014/01/21/horror-desktop-wallpaper_102044_12.jpg");}
+        100%{background-image: url("https://wallpapertag.com/wallpaper/full/1/2/3/628699-widescreen-gothic-horror-wallpaper-2048x1536-for-retina.jpg");}
+    } 
+    
+
+
+nav
+{
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+nav ul
+{
+    display: flex;
+    margin-left: 218px;
+    margin-top: 8px;
+
+}
+
+nav ul li
+{
+    margin: 20px;
+    list-style-type: none;
+    color: white;
+   
+}
+
+.logo
+{
+margin: 20px;
+font-size: 30px;
+color: white;
+}
+
+.logo i{
+    font-size: 27px;
+    margin-left: 27px;
+}
+.dot i
+{
+color: white;
+font-size: 30px;
+margin-top: 22px;
+margin-left: 250px;
+}
+
+.container
+{
+    margin-left: 361px;
+    margin-top: 97px;
+    color: aliceblue;
+    /* border: 2px solid red; */
+
+}
+
+.container h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.container h4
+{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 64px;
+    margin-top: 10px;
+    /* color: red; */
+}
+
+.btn
+{
+    padding: 10px;
+    margin-left: 109px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: red;
+    color:  white;
+    border: none;
+}
+.btn2
+{
+    padding: 10px;
+    margin-left: 21px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color:  red;
+    border: none;
+
+}
+
+.icon
+{
+    /* border: 2px solid red; */
+    margin-top: 150px;
+}
+
+.icon i 
+{
+    color: white;
+    margin-left: 530px;
+    font-size: 50px;
+    transition: all 1s ease-in-out .1s;
+
+}
+
+.icon i:hover
+{
+    color: red;
+    transform: translateY(5px);
+    cursor: pointer;
+
+}
+
+.content
+{
+    /* border: 2px solid green; */
+    height: 2000px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.906);
+    position: relative;
+    
+}
+
+.box1
+{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid red; */
+    z-index: 100;
+
+
+}
+.box1 img
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 150px;
+    z-index: 100;
+}
+
+.box2
+{
+    height: 450px;
+    width: 350px;
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 313px ;
+    bottom: 0px;
+    left: 248px;
+    right: 0px;
+    z-index: -1;
+
+
+
+}
+
+.box2 img 
+{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+
+}
+
+.box3
+{
+height: 273px;
+width: 275px;
+/* border: 2px solid yellow; */
+position: absolute;
+top: 595px;
+bottom: 0px;
+left: 62px;
+right: 0px;
+
+
+}
+.box3 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.box4
+{
+    /* border: 2px solid yellow; */
+    height: 600px;
+    width: 500px;
+    margin-top: -253px;
+    margin-left: 700px;
+}
+
+.box4 p
+{
+    color: white;
+}
+
+.box4 h1 
+{
+    color: white;
+}
+
+.box5
+{
+    /* border: 2px solid green; */
+    color: white;
+    margin-top: 45px;
+    /* padding: 10px; */
+    display: flex;
+    
+
+}
+
+.box5 ul li 
+{
+    line-height: 30px;
+    list-style-type: none;
+    
+}
+.box5 ul
+{
+    /* margin-left: 10px; */
+    /* border: 2px solid red ; */
+    display: inline-block;
+    width: 48%;
+    
+    
+}
+
+.fa-key
+{
+    margin-right: 15px;
+    color: red;
+    
+}
+
+.para
+{
+    /* border: 2px solid orange;     */
+    display: inline-block;
+    width: 48%;
+    line-height: 22px;
+}
+
+.box6
+{
+    color: white;
+    margin-top: 50px;
+    border: 2px solid green;
+    margin-top: 300px;
+}
+.content1
+{
+    border: 2px solid red;
+    margin-top: 200px;
+}
